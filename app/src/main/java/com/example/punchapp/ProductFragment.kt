@@ -6,11 +6,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.punchapp.adapter.ProductAdapter
+import com.example.punchapp.databinding.FragmentProductBinding
+import com.example.punchapp.databinding.ProductElementBinding
 import com.example.punchapp.model.Product
 
 
-class ProductFragment : Fragment() {
+class ProductFragment : Fragment(), ProductAdapter.OnItemListener {
 
+    private lateinit var binding: FragmentProductBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,12 +27,28 @@ class ProductFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_product, container, false)
+        binding = FragmentProductBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        val datos = ArrayList<Product>()
+
+        for(i in 1 until 20){
+            val gameTmp = Product(i, "Título $i", "Costo $i")
+            datos.add(gameTmp)
+        }
+
+        val adapter = ProductAdapter(requireContext(), datos, this)
+
+        with(binding){
+            //Recyclerview requiere un LayoutManager
+            rvProducts.layoutManager = LinearLayoutManager(requireContext())
+            rvProducts.adapter = adapter
+
+        }
     }
 
     override fun miClick(product: Product) {
@@ -37,4 +58,5 @@ class ProductFragment : Fragment() {
         bundle.putString("dato1", "${product.title}")
         parentFragmentManager.setFragmentResult("datos",bundle)
     }
+
 }
