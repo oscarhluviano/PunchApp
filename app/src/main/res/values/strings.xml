@@ -3,6 +3,17 @@
     <string name="email">Correo</string>
     <string name="psw">Contraseña</string>
     <string name="ConfPsw">Confirmar contraseña</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cost">Costo</string>
+    <string name="title">Título</string>
+    <string name="loginText">Inicia sesión en tu cuenta</string>
+    <string name="logIn">Iniciar sesión</string>
+    <string name="LogInGoogle">Continuar con Google</string>
+    <string name="SignUp">Crear cuenta</string>
+    <string name="alreadyAccount">¿Ya tienes una cuenta?</string>
+    <string name="or">O</string>
+    <string name="rewards">Recompensas</string>
+    <string name="Redeem">Canjear</string>
+    <string name="history">Historial</string>
+    <string name="points">Puntos</string>
+    <string name="availableRewards">Puntos para recompensas disponibles:</string>
 </resources>

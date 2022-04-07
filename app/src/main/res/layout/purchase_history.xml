@@ -67,32 +67,29 @@
 
         <TextView
             android:id="@+id/tvTitle"
+            style="@style/Subtitle1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="10dp"
             android:gravity="bottom"
-            android:textColor="?attr/colorPrimary"
-            android:textSize="22sp"
-            android:textStyle="bold|italic"
             app:layout_constraintBottom_toTopOf="@+id/guideline4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline7"
             app:layout_constraintTop_toTopOf="@+id/guideline3"
-            tools:text="Título" />
+            tools:text="@string/title" />
 
         <TextView
             android:id="@+id/tvCost"
+            style="@style/Body2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="10dp"
             android:gravity="center_vertical"
-            android:textColor="?attr/colorSecondary"
-            android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline7"
             app:layout_constraintTop_toBottomOf="@+id/tvTitle"
-            tools:text="Género" />
+            tools:text="@string/cost" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
