@@ -13,7 +13,7 @@ class PurchaseHistoryAdapter (private val context: Context, val products: ArrayL
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PurchaseHistoryAdapter.ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        val binding = PurchaseHistoryBinding.inflate(layoutInflater)
+        val binding = PurchaseHistoryBinding.inflate(layoutInflater, parent, false)
 
         return ViewHolder(binding, onItemListener)
     }

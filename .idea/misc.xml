@@ -3,16 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/activity_log_in.xml" value="0.371875" />
-        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/activity_main.xml" value="0.28" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/drawable/ic_user.xml" value="0.183" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/activity_add_reward.xml" value="0.3131578947368421" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/activity_main.xml" value="0.3131578947368421" />
         <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/activity_user_profile.xml" value="0.3131578947368421" />
         <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/fragment_initial.xml" value="0.3052586575459598" />
         <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/fragment_product.xml" value="0.3052586575459598" />
         <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/fragment_products.xml" value="0.371875" />
         <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/fragment_purchase_history.xml" value="0.3052586575459598" />
         <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/fragment_redeem.xml" value="0.3052586575459598" />
-        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/product_element.xml" value="0.33" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/product_element.xml" value="0.6561604584527221" />
         <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/layout/purchase_history.xml" value="0.3052586575459598" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/menu/admin_menu.xml" value="0.2535087719298246" />
+        <entry key="..\:/Documentos/Programas/Android/PunchApp/app/src/main/res/menu/main_menu.xml" value="0.312280701754386" />
       </map>
     </option>
   </component>

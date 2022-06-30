@@ -51,7 +51,7 @@ class PurchaseHistoryFragment : Fragment(), PurchaseHistoryAdapter.OnItemListene
     }
 
     override fun miClick(product: Product) {
-        Toast.makeText(requireContext(), "Juego: ${product.title}", Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(), "Producto: ${product.title}", Toast.LENGTH_SHORT).show()
 
         val bundle = Bundle()
         bundle.putString("dato1", "${product.title}")

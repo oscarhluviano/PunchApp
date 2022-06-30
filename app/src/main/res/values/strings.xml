@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">PunchApp</string>
+    <string name="name">Nombre</string>
     <string name="email">Correo</string>
     <string name="psw">Contraseña</string>
     <string name="ConfPsw">Confirmar contraseña</string>
@@ -16,4 +17,10 @@
     <string name="history">Historial</string>
     <string name="points">Puntos</string>
     <string name="availableRewards">Puntos para recompensas disponibles:</string>
+    <string name="notAccount">¿No tiene una cuenta?</string>
+    <string name="logOut">Cerrar sesión</string>
+    <string name="description">Descripción</string>
+    <string name="benefit">Beneficio</string>
+    <string name="addReward">Agregar Recompensa</string>
+    <string name="createReward">Crear Recompensa</string>
 </resources>

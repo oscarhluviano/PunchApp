@@ -37,8 +37,8 @@ class ProductFragment : Fragment(), ProductAdapter.OnItemListener {
         val datos = ArrayList<Product>()
 
         for(i in 1 until 20){
-            val gameTmp = Product(i, "Título $i", "Costo $i")
-            datos.add(gameTmp)
+            val productTmp = Product(i, "Título $i", "Costo $i")
+            datos.add(productTmp)
         }
 
         val adapter = ProductAdapter(requireContext(), datos, this)
@@ -47,7 +47,6 @@ class ProductFragment : Fragment(), ProductAdapter.OnItemListener {
             //Recyclerview requiere un LayoutManager
             rvProducts.layoutManager = LinearLayoutManager(requireContext())
             rvProducts.adapter = adapter
-
         }
     }
 
